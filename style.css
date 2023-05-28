@@ -1,0 +1,119 @@
+/* Add your custom CSS code here */
+
+/* Chat container */
+#chat-container {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  #chat-header {
+    padding: 10px;
+    background-color: #337ab7;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  #chat-header h1 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  #chat-body {
+    padding: 10px;
+    background-color: #f7f7f7;
+  }
+  
+  #chat-messages {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .user-message {
+    background-color: #eaf2ff;
+    color: #337ab7;
+  }
+  
+  .chatbot-message {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  #chat-input {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  #chat-input input[type="text"] {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #chat-input button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #popup-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  #open-chat-button {
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #open-chat-button:hover {
+    background-color: #286090;
+  }
+  
+  #suggested-questions {
+    margin-top: 10px;
+  }
+  
+  #suggested-questions p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  #suggested-questions ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+  }
+  
+  .suggested-question {
+    cursor: pointer;
+    color: #337ab7;
+  }
+  
+  .suggested-question:hover {
+    text-decoration: underline;
+  }
+S  
